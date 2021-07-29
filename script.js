@@ -16,7 +16,7 @@ var output_file = "output.txt"
 var months_name = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Décembre"]
 //var months_name = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
-var regex = /BEGIN:VEVENT.*?DTSTART;VALUE=DATE:(?<year>....)(?<month>..)(?<day>..).*?SUMMARY:(🎂 )?(?<name>.*?)[\n(-].*?/gms
+var regex = /BEGIN:VEVENT.*?DTSTART;VALUE=DATE:(?<year>....)(?<month>..)(?<day>..).*?SUMMARY:(.. )?(?<name>.*?)[\n(-].*?/gms
 
 
 fs.readFile(input_file, 'utf8', (err, data)=>{
