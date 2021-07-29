@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-var input_file = "test.ics"
+var input_file = "input.ics"
 var output_file = "output.txt"
 
 var months_name = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Décembre"]
