@@ -7,9 +7,11 @@ The idea is to take the automatic generated contacts birthdays, extract them and
 - NodeJS
 
 ## Execution
+Input : data.ics
 ```bash
 node script.js
 ```
+Output : output.txt
 
 ## Exemple
 ```
